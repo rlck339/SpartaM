@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     static GameManager gameManager;
+
     public static GameManager Instance { get { return gameManager; } }
 
     private int currentScore = 0;
@@ -43,6 +44,7 @@ public class GameManager : MonoBehaviour
             PlayerPrefs.SetInt("HighScore", highScore); // 최고 점수 저장
             PlayerPrefs.Save();
         }
+        SceneManager.LoadScene("ButtonScene");
 
         uiManager.SetRestart();
     }
