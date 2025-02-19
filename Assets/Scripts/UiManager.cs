@@ -8,7 +8,7 @@ public class UiManager : MonoBehaviour
 
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI restartText;
-   
+    public TextMeshProUGUI highScoreText;
     void Start()
     {
         if (restartText == null)
@@ -22,12 +22,23 @@ public class UiManager : MonoBehaviour
 
     public void SetRestart()
     {
+        if (restartText == null)
+        {
+            
+            return;
+        }
         restartText.gameObject.SetActive(true);
     }
 
     public void UpdateScore(int score)
     {
-        scoreText.text = score.ToString();
+        scoreText.text = ("Score : " + score);
+    }
+    public void UpdateHighScore(int highscore)
+    {
+        
+
+        highScoreText.text = "High  : " + highscore;
     }
    
     
