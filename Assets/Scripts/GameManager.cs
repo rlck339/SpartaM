@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
     private int currentScore = 0;
     private int highScore = 0;  // 최고 점수 변수 추가
 
+
+
     UiManager uiManager;
     public UiManager UiManager { get { return uiManager; } }
 

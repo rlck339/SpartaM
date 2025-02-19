@@ -9,6 +9,8 @@ public class UiManager : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI restartText;
     public TextMeshProUGUI highScoreText;
+
+    
     void Start()
     {
         if (restartText == null)

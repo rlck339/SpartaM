@@ -9,7 +9,7 @@ public class Potal : MonoBehaviour
     {
         if (other.CompareTag("Player"))  
         {
-            SceneManager.LoadScene(minigameSceneName);
+            SceneManager.LoadScene("MiniGameScene");
         }
     }
 }
