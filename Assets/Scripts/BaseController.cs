@@ -74,7 +74,7 @@ public class BaseController : MonoBehaviour
     /// <param name="direction">바라볼 방향</param>
     private void Rotate(Vector2 direction)
     {
-        // 회전 각도 계산 (라디안 -> 도)
+        // 회전 각도 계산
         float rotZ = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
         // -90도 ~ 90도 범위면 왼쪽을 바라보는 상태
