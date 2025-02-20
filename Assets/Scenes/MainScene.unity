@@ -293,7 +293,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chracterRenderer: {fileID: 1676043033}
-  weaponPivot: {fileID: 1927101530}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -764,7 +763,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uBE44\uD589\uAE30\uAC8C\uC784~"
+  m_Text: "\uBE44\uD589\uAE30\uAC8C\uC784"
 --- !u!222 &981206081
 CanvasRenderer:
   m_ObjectHideFlags: 0

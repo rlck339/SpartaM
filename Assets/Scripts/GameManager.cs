@@ -46,6 +46,8 @@ public class GameManager : MonoBehaviour
         }
         SceneManager.LoadScene("ButtonScene");
 
+        uiManager.UpdateHighScore(highScore);
+
         uiManager.SetRestart();
     }
 
