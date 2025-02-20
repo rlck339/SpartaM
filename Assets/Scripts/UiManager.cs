@@ -13,23 +13,14 @@ public class UiManager : MonoBehaviour
     
     void Start()
     {
-        if (restartText == null)
-            Debug.LogError("restart text is null");
+        
 
-        if (scoreText == null)
-            Debug.LogError("socre text is null");
-
-        restartText.gameObject.SetActive(false);
+        
     }
 
     public void SetRestart()
     {
-        if (restartText == null)
-        {
-            
-            return;
-        }
-        restartText.gameObject.SetActive(true);
+        
     }
 
     public void UpdateScore(int score)

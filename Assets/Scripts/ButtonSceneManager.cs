@@ -9,9 +9,9 @@ public class ButtonSceneManager : MonoBehaviour
 
     private void Start()
     {
-        // 버튼에 기능 연결
-        startButton.onClick.AddListener(LoadMiniGameScene);
-        backButton.onClick.AddListener(LoadMainScene);
+        
+        
+        
     }
 
     // 미니게임 씬으로 이동
